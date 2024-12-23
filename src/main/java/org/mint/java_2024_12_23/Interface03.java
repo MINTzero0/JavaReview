@@ -23,6 +23,7 @@ class CCC{
 class AAA extends CCC implements BBB{
     public void show(){
         System.out.println(BBB.i+"--"+super.i);
+        //super调用父类属性
     }
 
 }
