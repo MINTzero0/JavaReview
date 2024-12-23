@@ -26,7 +26,7 @@ public class PreparePerson {
         //比较名字等等
         if (obj instanceof PreparePerson) {
             PreparePerson preparePerson = (PreparePerson) obj;
-            if (this.name.equals(preparePerson.name) && this.age == preparePerson.age && this.sex == preparePerson.sex && this.job == preparePerson.job) {
+            if (this.name.equals(preparePerson.name) && this.age == preparePerson.age && this.sex == preparePerson.sex && this.job.equals(preparePerson.job)) {
                 return true;
             }
         }
