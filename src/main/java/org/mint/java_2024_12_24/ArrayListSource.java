@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class ArrayListSource {
     public static void main(String[] args) {
         //默认大小是10，容量不足按照1.5倍扩容
-        ArrayList arrayList = new ArrayList();
+        ArrayList<Object> arrayList = new ArrayList<>();
         for (int i = 0; i <= 10 ; i++) {
             arrayList.add(i);
         }
